@@ -1,0 +1,19 @@
+.formSearch{
+    height: 50px;
+              border-radius: 50px;
+              border: 3px solid #7FACFF;
+              background-color: #F0F7FF;
+              color: #333;
+              font-family: 'Roboto, sans-serif';
+              font-weight: 400;
+              font-size: 20px;
+              position: relative;
+              z-index: 1;
+}
+@media (width <= 425px) {
+    .formSearch{
+        height: 20rem;
+        bottom: 0;
+        margin-top: 19rem;
+    }
+}  
